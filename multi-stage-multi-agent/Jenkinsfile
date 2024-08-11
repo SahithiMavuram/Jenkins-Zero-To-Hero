@@ -18,4 +18,15 @@ pipeline {
       }
     }
   }
+
+ post {
+        success {
+            // Actions to perform if the build is successful
+            echo 'Java program executed successfully!'
+        }
+        failure {
+            // Actions to perform if the build fails
+            echo 'Failed to execute Java program.'
+        }
+    }
 }
