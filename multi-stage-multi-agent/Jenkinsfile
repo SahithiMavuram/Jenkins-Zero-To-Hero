@@ -21,11 +21,11 @@ pipeline {
    post {
         success {
             // Actions to perform if the build is successful
-            echo 'Java program executed successfully!'
+            echo ' program executed successfully!'
         }
         failure {
             // Actions to perform if the build fails
-            echo 'Failed to execute Java program.'
+            echo 'Failed to execute  program.'
         }
     }
 }
